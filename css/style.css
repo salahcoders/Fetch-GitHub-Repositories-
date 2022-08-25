@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding: 10px 15px;
+}
+
+.container .form {
+    padding: 10px;
+    margin: 15px auto;
+    background-color: #f1f1f1;
+    width: 40%;
+}
+
+.container input[type="text"] {
+    padding: 10px 15px;
+    background-color: #ededed;
+    width: 85%;
+    border: none;
+    outline: none;
+}
+
+.container .btnFetch {
+    color: white;
+    background-color: #ffa217;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.container .repos {
+    padding: 10px 15px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    width: 50%;
+}
+
+.container .repos .repo {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .repos .repo .name_repo {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.container .repos .repo .info .stars_repo {
+    background-color: #009688;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.container .repos .repo .info .vist {
+    background-color: #ffa217;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    margin: 10px;
+}
